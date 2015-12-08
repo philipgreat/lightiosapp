@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D439AE831C171EEA00F7949E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D439AE821C171EEA00F7949E /* AppDelegate.swift */; };
+		D439AE851C171EEA00F7949E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D439AE841C171EEA00F7949E /* ViewController.swift */; };
+		D439AE881C171EEA00F7949E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D439AE861C171EEA00F7949E /* Main.storyboard */; };
+		D439AE8A1C171EEA00F7949E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D439AE891C171EEA00F7949E /* Assets.xcassets */; };
+		D439AE8D1C171EEA00F7949E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D439AE8B1C171EEA00F7949E /* LaunchScreen.storyboard */; };
+		D439AE981C171EEA00F7949E /* LightControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D439AE971C171EEA00F7949E /* LightControlTests.swift */; };
+		D439AEA31C171EEA00F7949E /* LightControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D439AEA21C171EEA00F7949E /* LightControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D439AE941C171EEA00F7949E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D439AE771C171EEA00F7949E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D439AE7E1C171EEA00F7949E;
+			remoteInfo = LightControl;
+		};
+		D439AE9F1C171EEA00F7949E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D439AE771C171EEA00F7949E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D439AE7E1C171EEA00F7949E;
+			remoteInfo = LightControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D439AE7F1C171EEA00F7949E /* LightControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D439AE821C171EEA00F7949E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D439AE841C171EEA00F7949E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D439AE871C171EEA00F7949E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D439AE891C171EEA00F7949E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D439AE8C1C171EEA00F7949E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D439AE8E1C171EEA00F7949E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D439AE931C171EEA00F7949E /* LightControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D439AE971C171EEA00F7949E /* LightControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControlTests.swift; sourceTree = "<group>"; };
+		D439AE991C171EEA00F7949E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D439AE9E1C171EEA00F7949E /* LightControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D439AEA21C171EEA00F7949E /* LightControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightControlUITests.swift; sourceTree = "<group>"; };
+		D439AEA41C171EEA00F7949E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D439AE7C1C171EEA00F7949E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D439AE901C171EEA00F7949E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D439AE9B1C171EEA00F7949E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D439AE761C171EEA00F7949E = {
+			isa = PBXGroup;
+			children = (
+				D439AE811C171EEA00F7949E /* LightControl */,
+				D439AE961C171EEA00F7949E /* LightControlTests */,
+				D439AEA11C171EEA00F7949E /* LightControlUITests */,
+				D439AE801C171EEA00F7949E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D439AE801C171EEA00F7949E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D439AE7F1C171EEA00F7949E /* LightControl.app */,
+				D439AE931C171EEA00F7949E /* LightControlTests.xctest */,
+				D439AE9E1C171EEA00F7949E /* LightControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D439AE811C171EEA00F7949E /* LightControl */ = {
+			isa = PBXGroup;
+			children = (
+				D439AE821C171EEA00F7949E /* AppDelegate.swift */,
+				D439AE841C171EEA00F7949E /* ViewController.swift */,
+				D439AE861C171EEA00F7949E /* Main.storyboard */,
+				D439AE891C171EEA00F7949E /* Assets.xcassets */,
+				D439AE8B1C171EEA00F7949E /* LaunchScreen.storyboard */,
+				D439AE8E1C171EEA00F7949E /* Info.plist */,
+			);
+			path = LightControl;
+			sourceTree = "<group>";
+		};
+		D439AE961C171EEA00F7949E /* LightControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				D439AE971C171EEA00F7949E /* LightControlTests.swift */,
+				D439AE991C171EEA00F7949E /* Info.plist */,
+			);
+			path = LightControlTests;
+			sourceTree = "<group>";
+		};
+		D439AEA11C171EEA00F7949E /* LightControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D439AEA21C171EEA00F7949E /* LightControlUITests.swift */,
+				D439AEA41C171EEA00F7949E /* Info.plist */,
+			);
+			path = LightControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D439AE7E1C171EEA00F7949E /* LightControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D439AEA71C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControl" */;
+			buildPhases = (
+				D439AE7B1C171EEA00F7949E /* Sources */,
+				D439AE7C1C171EEA00F7949E /* Frameworks */,
+				D439AE7D1C171EEA00F7949E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightControl;
+			productName = LightControl;
+			productReference = D439AE7F1C171EEA00F7949E /* LightControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D439AE921C171EEA00F7949E /* LightControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D439AEAA1C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControlTests" */;
+			buildPhases = (
+				D439AE8F1C171EEA00F7949E /* Sources */,
+				D439AE901C171EEA00F7949E /* Frameworks */,
+				D439AE911C171EEA00F7949E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D439AE951C171EEA00F7949E /* PBXTargetDependency */,
+			);
+			name = LightControlTests;
+			productName = LightControlTests;
+			productReference = D439AE931C171EEA00F7949E /* LightControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D439AE9D1C171EEA00F7949E /* LightControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D439AEAD1C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControlUITests" */;
+			buildPhases = (
+				D439AE9A1C171EEA00F7949E /* Sources */,
+				D439AE9B1C171EEA00F7949E /* Frameworks */,
+				D439AE9C1C171EEA00F7949E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D439AEA01C171EEA00F7949E /* PBXTargetDependency */,
+			);
+			name = LightControlUITests;
+			productName = LightControlUITests;
+			productReference = D439AE9E1C171EEA00F7949E /* LightControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D439AE771C171EEA00F7949E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "张喜来";
+				TargetAttributes = {
+					D439AE7E1C171EEA00F7949E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 672GEV3QC6;
+					};
+					D439AE921C171EEA00F7949E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 672GEV3QC6;
+						TestTargetID = D439AE7E1C171EEA00F7949E;
+					};
+					D439AE9D1C171EEA00F7949E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 672GEV3QC6;
+						TestTargetID = D439AE7E1C171EEA00F7949E;
+					};
+				};
+			};
+			buildConfigurationList = D439AE7A1C171EEA00F7949E /* Build configuration list for PBXProject "LightControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D439AE761C171EEA00F7949E;
+			productRefGroup = D439AE801C171EEA00F7949E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D439AE7E1C171EEA00F7949E /* LightControl */,
+				D439AE921C171EEA00F7949E /* LightControlTests */,
+				D439AE9D1C171EEA00F7949E /* LightControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D439AE7D1C171EEA00F7949E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D439AE8D1C171EEA00F7949E /* LaunchScreen.storyboard in Resources */,
+				D439AE8A1C171EEA00F7949E /* Assets.xcassets in Resources */,
+				D439AE881C171EEA00F7949E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D439AE911C171EEA00F7949E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D439AE9C1C171EEA00F7949E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D439AE7B1C171EEA00F7949E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D439AE851C171EEA00F7949E /* ViewController.swift in Sources */,
+				D439AE831C171EEA00F7949E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D439AE8F1C171EEA00F7949E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D439AE981C171EEA00F7949E /* LightControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D439AE9A1C171EEA00F7949E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D439AEA31C171EEA00F7949E /* LightControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D439AE951C171EEA00F7949E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D439AE7E1C171EEA00F7949E /* LightControl */;
+			targetProxy = D439AE941C171EEA00F7949E /* PBXContainerItemProxy */;
+		};
+		D439AEA01C171EEA00F7949E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D439AE7E1C171EEA00F7949E /* LightControl */;
+			targetProxy = D439AE9F1C171EEA00F7949E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D439AE861C171EEA00F7949E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D439AE871C171EEA00F7949E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D439AE8B1C171EEA00F7949E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D439AE8C1C171EEA00F7949E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D439AEA51C171EEA00F7949E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D439AEA61C171EEA00F7949E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D439AEA81C171EEA00F7949E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D439AEA91C171EEA00F7949E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D439AEAB1C171EEA00F7949E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightControl.app/LightControl";
+			};
+			name = Debug;
+		};
+		D439AEAC1C171EEA00F7949E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightControl.app/LightControl";
+			};
+			name = Release;
+		};
+		D439AEAE1C171EEA00F7949E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LightControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D439AEAF1C171EEA00F7949E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LightControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D439AE7A1C171EEA00F7949E /* Build configuration list for PBXProject "LightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D439AEA51C171EEA00F7949E /* Debug */,
+				D439AEA61C171EEA00F7949E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D439AEA71C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D439AEA81C171EEA00F7949E /* Debug */,
+				D439AEA91C171EEA00F7949E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D439AEAA1C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D439AEAB1C171EEA00F7949E /* Debug */,
+				D439AEAC1C171EEA00F7949E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D439AEAD1C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D439AEAE1C171EEA00F7949E /* Debug */,
+				D439AEAF1C171EEA00F7949E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D439AE771C171EEA00F7949E /* Project object */;
+}
