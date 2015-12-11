@@ -1,0 +1,96 @@
+/*
+
+ Udp NTP Client
+
+ Get the time from a Network Time Protocol (NTP) time server
+ Demonstrates use of UDP sendPacket and ReceivePacket
+ For more on NTP time servers and the messages needed to communicate with them,
+ see http://en.wikipedia.org/wiki/Network_Time_Protocol
+
+ created 4 Sep 2010
+ by Michael Margolis
+ modified 9 Apr 2012
+ by Tom Igoe
+ modified 02 Sept 2015
+ by Arturo Guadalupi
+
+ This code is in the public domain.
+
+ */
+
+#include <SPI.h>
+#include <Ethernet.h>
+#include <EthernetUdp.h>
+
+// Enter a MAC address for your controller below.
+// Newer Ethernet shields have a MAC address printed on a sticker on the shield
+byte mac[] = {
+  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
+};
+
+unsigned int localPort = 8888;       // local port to listen for UDP packets
+
+
+
+// A UDP instance to let us send and receive packets over UDP
+EthernetUDP Udp;
+
+void setup() {
+  // Open serial communications and wait for port to open:
+  Serial.begin(9600);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for native USB port only
+  }
+
+
+  // start Ethernet and UDP
+  if (Ethernet.begin(mac) == 0) {
+    Serial.println("Failed to configure Ethernet using DHCP");
+    // no point in carrying on, so do nothing forevermore:
+    for (;;)
+      ;
+  }
+  Udp.begin(localPort);
+}
+int currentStatus=0;
+void loop() {
+
+  if(currentStatus==0){
+    sendCommand("switchOnAllLights"); // send an NTP packet to a time server
+     delay(10000);
+     Ethernet.maintain();
+     currentStatus=1;
+     return;
+  }
+   sendCommand("switchOffAllLights"); // send an NTP packet to a time server
+     delay(10000);
+     Ethernet.maintain();
+     currentStatus=0;
+     return;
+  
+  // wait ten seconds before asking for the time again
+ 
+  
+}
+
+// send an NTP request to the time server at the given address
+unsigned long sendCommand(const char* command) {
+  // set all bytes in the buffer to 0
+ 
+  
+
+  // all NTP fields have been given values, now
+  // you can send a packet requesting a timestamp:
+  Udp.beginPacket("192.168.1.1", 8899); //NTP requests are to port 123
+  Udp.write(command, NTP_PACKET_SIZE);
+  Udp.endPacket();
+}
+
+
+
+
+
+
+
+
+
