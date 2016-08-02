@@ -14,9 +14,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         NSLog("control when view did load")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    override func viewDidAppear(animated: Bool) {
+        sendCommand("switchOnAllLights")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         NSLog("did receive memory warning")
@@ -24,6 +27,11 @@ class ViewController: UIViewController {
     }
     
 
+    
+    
+    
+    
+    
 
     @IBAction func valueChanged(sender: UISwitch) {
         
@@ -46,6 +54,7 @@ class ViewController: UIViewController {
         //            ai_next: nil)
     
         let destIP = in_addr(s_addr: 0x0101a8c0)
+        
         //this is 192.168.1.1
         let sock = socket(AF_INET, SOCK_DGRAM, 0) // DGRAM makes it UDP
         NSLog("sock value %d",sock);
@@ -64,6 +73,7 @@ class ViewController: UIViewController {
             }
         }
         close(sock)
+        
     }
     
     

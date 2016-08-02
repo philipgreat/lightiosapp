@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					D439AE7E1C171EEA00F7949E = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 672GEV3QC6;
+						DevelopmentTeam = BLU67A7A36;
 					};
 					D439AE921C171EEA00F7949E = {
 						CreatedOnToolsVersion = 7.1;
@@ -402,11 +402,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LightControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControl;
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControl2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -415,11 +418,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LightControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControl;
+				PRODUCT_BUNDLE_IDENTIFIER = TeraPico.LightControl2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -491,6 +497,7 @@
 				D439AEA91C171EEA00F7949E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D439AEAA1C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControlTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +506,7 @@
 				D439AEAC1C171EEA00F7949E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D439AEAD1C171EEA00F7949E /* Build configuration list for PBXNativeTarget "LightControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +515,7 @@
 				D439AEAF1C171EEA00F7949E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
